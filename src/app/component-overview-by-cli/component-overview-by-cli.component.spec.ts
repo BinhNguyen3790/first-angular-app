@@ -8,7 +8,7 @@ describe('ComponentOverviewByCliComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ComponentOverviewByCliComponent]
+      declarations: [ComponentOverviewByCliComponent]
     })
     .compileComponents();
     
